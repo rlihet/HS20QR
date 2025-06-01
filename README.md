@@ -17,7 +17,10 @@ The EAP method will, of course, be username & password based. Depending on the a
     "username":"sample_username",
     "password":"sample_password",
     "naiRealmNames":["domain.tld", "example.com"],
-    "servernames":["*.eap-domain.tld"]
+    "servernames":["*.eap-domain.tld"],
+    "caurl":"",
+    "version":1,
+    "oper":""
 }
 ```
 
@@ -33,3 +36,6 @@ The EAP method will, of course, be username & password based. Depending on the a
 | password | **Required** in plain text | 
 | naiRealNames | Array. **Required** only for 802.11u | 
 | servernames | Array. **Required** for EAP server name validation in all scenarios| 
+| caurl|**Future** use; include empty string|
+| version|**Future** use; include as 1|
+| oper|**Future** use; include empty string|

@@ -9,7 +9,7 @@ The EAP method will, of course, be username & password based. Depending on the a
 ## Version 1.3 Feature
 The Hotspot Connect app can be launched using hsconnect:// URI to trigger onboarding. This is especially useful when the web portal is run on the same device to be onboarded, so scanning a QR code is not feasible. So, the web portal can provide a link to open the app. 
 
-URL to be used: hsconnect://add&fromURL=<value> where *<value>* must be the base64 encoding of the URL that provides data. The URL should return a base64 encoded value as per JSON schema below. The app will attempt to decode and apply Wi-Fi settings accordingly. 
+URL to be used: hsconnect://add&fromURL=value where *value* must be the base64 encoding of the URL that provides data. The URL should return a base64 encoded value as per JSON schema below. The app will attempt to decode and apply Wi-Fi settings accordingly. 
 
 ## JSON Schema Example
 
